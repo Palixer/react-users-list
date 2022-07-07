@@ -4,7 +4,7 @@ const USERS = [
 	{   username:'pablo',
 		name: 'Pablo Castellanos',
 		active: true,
-		role: 'otro'
+		role: 'other'
 	},
 	{   username:'jose',
 		name: 'José Miguel Fernández',
