@@ -1,20 +1,24 @@
 import UsersList from './components/UsersList';
+import { USER_ROLES } from './constants/userRoles';
 
 const USERS = [
-	{   username:'pablo',
+	{
+		username: 'pablo',
 		name: 'Pablo Castellanos',
 		active: true,
-		role: 'other'
+		role: USER_ROLES.OTHER
 	},
-	{   username:'jose',
+	{
+		username: 'jose',
 		name: 'José Miguel Fernández',
 		active: true,
-		role: 'teacher'
+		role: USER_ROLES.TEACHER
 	},
-	{   username:'javier',
+	{
+		username: 'javier',
 		name: 'Javier Lopez',
 		active: false,
-		role: 'student'
+		role: USER_ROLES.STUDENT
 	}
 ];
 
